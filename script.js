@@ -309,7 +309,7 @@ function initProgressBars() {
         observer.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.5 });
+  }, { threshold: 0.2 });
   bars.forEach(b => observer.observe(b));
 }
 
@@ -318,17 +318,31 @@ function initProgressBars() {
 // ═══════════════════════════════════════════════
 function initCounters() {
   const counters = document.querySelectorAll('.stat-number, .counter-num');
+  const fired = new Set();
+
+  function runCounter(el) {
+    if (fired.has(el)) return;
+    fired.add(el);
+    const target = parseInt(el.getAttribute('data-target'));
+    animateCounter(el, target);
+  }
+
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        const el = entry.target;
-        const target = parseInt(el.getAttribute('data-target'));
-        animateCounter(el, target);
-        observer.unobserve(el);
+        runCounter(entry.target);
+        observer.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.5 });
+  }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
   counters.forEach(c => observer.observe(c));
+
+  // Fallback: fire any counters that haven't triggered after 3 seconds
+  // (handles edge cases where elements are off-screen on small viewports)
+  setTimeout(() => {
+    counters.forEach(c => runCounter(c));
+  }, 3000);
 }
 
 function animateCounter(el, target) {
