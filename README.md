@@ -4,7 +4,7 @@
 
 ### AI & Data Engineer · Full-Stack Developer · Oracle OCI GenAI Certified
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-playful--semolina--9c09f1.netlify.app-A855F7?style=for-the-badge&logoColor=white)](https://playful-semolina-9c09f1.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-sakshi--vermaa.netlify.app-A855F7?style=for-the-badge&logoColor=white)](https://sakshi-vermaa.netlify.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-SAK--SHI14-181717?style=for-the-badge&logo=github)](https://github.com/SAK-SHI14)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sakshi_Verma-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sakshi-verma-841045285)
 [![Oracle Certified](https://img.shields.io/badge/Oracle_OCI-GenAI_Certified-F80000?style=for-the-badge&logo=oracle)](https://github.com/SAK-SHI14)
@@ -21,7 +21,7 @@
 
 A **premium, cinematic personal developer portfolio** built entirely with vanilla HTML, CSS, and JavaScript — no frameworks, no dependencies. Designed to make a powerful first impression with a dark theme, glassmorphism cards, fluid animations, and an animated neural-network particle canvas.
 
-Deployed live at: **[playful-semolina-9c09f1.netlify.app](https://sakshi-vermaa.netlify.app/)**
+Deployed live at: **[sakshi-vermaa.netlify.app](https://sakshi-vermaa.netlify.app/)**
 
 ---
 
@@ -155,6 +155,6 @@ Try the **Konami Code** on the live site:
 
 **Crafted with ♥ by Sakshi Verma · Jalandhar, India**
 
-[![Portfolio](https://img.shields.io/badge/View_Portfolio-▶_Live_Demo-A855F7?style=for-the-badge)](https://playful-semolina-9c09f1.netlify.app/)
+[![Portfolio](https://img.shields.io/badge/View_Portfolio-▶_Live_Demo-A855F7?style=for-the-badge)](https://sakshi-vermaa.netlify.app/)
 
 </div>
