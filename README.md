@@ -21,7 +21,7 @@
 
 A **premium, cinematic personal developer portfolio** built entirely with vanilla HTML, CSS, and JavaScript — no frameworks, no dependencies. Designed to make a powerful first impression with a dark theme, glassmorphism cards, fluid animations, and an animated neural-network particle canvas.
 
-Deployed live at: **[playful-semolina-9c09f1.netlify.app](https://playful-semolina-9c09f1.netlify.app/)**
+Deployed live at: **[playful-semolina-9c09f1.netlify.app](https://sakshi-vermaa.netlify.app/)**
 
 ---
 
